@@ -1,0 +1,7 @@
+{
+  "name": "tempmail-bot",
+  "version": "1.0.0",
+  "scripts": { "start": "node bot-all-in-one.js" },
+  "dependencies": { "node-telegram-bot-api": "^0.67.0" },
+  "engines": { "node": ">=18" }
+}
