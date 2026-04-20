@@ -175,7 +175,7 @@ function handleHelp(chatId) {
   );
 }
 
-bot.onText(/\/start/, (msg) => void send(msg.chat.id, `👋 Welcome to <b>TempMail Bot</b>!\n\nGet a disposable email in seconds.\n\nTap <b>✉️ New Mail</b> to get started!`));
+bot.onText(/\/start/, (msg) => void send(msg.chat.id, `👋 Welcome, <b>Abu Wasin Hasan Mahi</b>!\n\nThis is <b>TempMail Bot</b> — get a disposable email in seconds.\n\nTap <b>✉️ New Mail</b> to get started!`));
 bot.onText(/\/newmail/, (msg) => void handleNewMail(msg.chat.id));
 bot.onText(/\/mymail/, (msg) => handleMyMail(msg.chat.id));
 bot.onText(/\/check/,  (msg) => void handleCheck(msg.chat.id));
